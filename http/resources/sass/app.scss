@@ -1,8 +1,23 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap');
 
 // Variables
 @import 'variables';
 
+// reset
+@import './reset.scss';
+
+// 기본 값 모음
+@import './common.scss';
+
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+
+// footer
+@import './footer/defaultFooter.scss';
+
+// views
+@import './views/welcome.scss';

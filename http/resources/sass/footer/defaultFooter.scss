@@ -1,0 +1,15 @@
+
+.default-footer{
+    height:180px;
+    width:100%;
+    background-color:#666;
+    position: relative;
+
+    .licence{
+        position:absolute;
+        left:50%;
+        bottom:20%;
+        transform: translateX(-50%);
+        font-size:14px;
+    }
+}
